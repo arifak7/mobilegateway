@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.portablegateway.ui.home.HomeFragment">
+
+    <Button
+        android:id="@+id/startScan"
+        android:layout_width="209dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_round_corner"
+        android:onClick="startScanning"
+        android:text="Start Scanning"
+        android:textColor="@color/teal_700"
+        app:backgroundTint="#9AD4FF"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="380dp"
+        android:layout_height="169dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="BLUETOOTH LOW ENERGY PORTABLE DATA ACQUISITION APP"
+        android:textAllCaps="true"
+        android:textColor="@color/teal_700"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/startScan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="186dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="29dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startScan"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="20dp"
+            android:layout_height="19dp"
+            android:background="@drawable/circle_draw"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/internetConnText"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="Internet Connection"
+            android:textColor="#606060" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

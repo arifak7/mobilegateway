@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "507688957040",
+    "firebase_url": "https://ble-gateway-e5bfa-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ble-gateway-e5bfa",
+    "storage_bucket": "ble-gateway-e5bfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507688957040:android:ffe3d92049c756efd570b5",
+        "android_client_info": {
+          "package_name": "com.example.blegateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507688957040-3cb66bplpv0fn7s8ktga2aljr5u3esv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxZza3DanaX3q3jfixu-RkJAb0O4Pjjp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507688957040-3cb66bplpv0fn7s8ktga2aljr5u3esv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507688957040:android:c0eb6149841c2a8dd570b5",
+        "android_client_info": {
+          "package_name": "com.example.portablegateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507688957040-3cb66bplpv0fn7s8ktga2aljr5u3esv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxZza3DanaX3q3jfixu-RkJAb0O4Pjjp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507688957040-3cb66bplpv0fn7s8ktga2aljr5u3esv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
